@@ -13,3 +13,4 @@ Basic Matrix operations in MATLAB
 Displaying a bar plot
 %}
 
+clear all; close all; clc;
