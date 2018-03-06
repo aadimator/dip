@@ -54,10 +54,24 @@ clearvars; close all; clc;
 % Task 4: Add 5 to all elements of 3rd row of A and save
 %         it in a variable M
 
-A = [1 2 3; 4 5 6; 7 8 9];
-M = A(3, :) + 5
+% A = [1 2 3; 4 5 6; 7 8 9];
+% M = A(3, :) + 5
 
+% Task 5: 
 
+% A = [1 2 3; 4 5 6; 7 8 9];
+% min(A(1, :))
+
+% Task 6: min and max of two images
+
+im1 = imread('images/kitty.jpg');
+im2 = imread('images/teddy.jpg');
+
+min(min(min(im1)))
+max(max(max(im1)))
+
+min(min(min(im2)))
+max(max(max(im2)))
 
 
 
