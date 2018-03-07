@@ -1,5 +1,5 @@
 %{
-Digit Image Processing
+Digital Image Processing
 
 Name: Aadam
 Roll# 6396
