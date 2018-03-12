@@ -17,29 +17,29 @@ clearvars; close all; clc;
 
 % figure(1)
 % subplot(1, 2, 1);
-% imshow('images/kitty.jpg');
-% title('Kitty');
+% imshow('../images/Baby_Po.jpg');
+% title('Baby Po');
 % 
 % subplot(1, 2, 2);
-% imshow('images/teddy.jpg');
-% title('Teddy');
-% 
+% imshow('../images/kitty.jpg');
+% title('MB');
+
 % figure(2)
 % subplot(2, 1, 1);
-% imshow('images/kitty.jpg');
+% imshow('../images/Baby_Po.jpg');
 % title('Kitty');
 % 
 % subplot(2, 1, 2);
-% imshow('images/teddy.jpg');
+% imshow('../images/kitty.jpg');
 % title('Teddy');
 
 % Task 2: Difference b/w * and .*
 
-% A = [1 2 3; 4 5 6; 7 8 9];
-% B = [0 1 2; 0 1 2; 2 0 2];
-% 
-% C = A * B
-% D = A .* B
+A = [1 2 3; 4 5 6; 7 8 9];
+B = [0 1 2; 0 1 2; 2 0 2];
+
+C = A * B
+D = A .* B
 
 
 % Task 3: Peculiar addition
@@ -64,14 +64,14 @@ clearvars; close all; clc;
 
 % Task 6: min and max of two images
 
-im1 = imread('images/kitty.jpg');
-im2 = imread('images/teddy.jpg');
-
-min(min(min(im1)))
-max(max(max(im1)))
-
-min(min(min(im2)))
-max(max(max(im2)))
+% im1 = imread('images/kitty.jpg');
+% im2 = imread('images/teddy.jpg');
+% 
+% min(min(min(im1)))
+% max(max(max(im1)))
+% 
+% min(min(min(im2)))
+% max(max(max(im2)))
 
 
 
