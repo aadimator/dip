@@ -8,10 +8,17 @@ Semester: Spring 2018
 Department of IT
 Universiy of Haripur
 
-Lab Task# n
-Basic Matrix operations in MATLAB
-Displaying a bar plot
-
+Lab# 4
 %}
 
-clear all; close all; clc;
+clearvars; close all; clc;
+
+
+
+
+
+
+
+
+
+
