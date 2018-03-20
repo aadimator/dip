@@ -39,10 +39,10 @@ A = [1 2 3; 4 5 6; 7 8 9];
 B = [0 1 2; 0 1 2; 2 0 2];
 
 C = A * B
+% Task 3: 
 D = A .* B
 
-
-% Task 3: Peculiar addition
+Peculiar addition
 
 % A = [1 2 3; 4 5 6; 7 8 9];
 % B = A(1, :)

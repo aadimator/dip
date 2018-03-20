@@ -8,9 +8,9 @@ Semester: Spring 2018
 Department of IT
 Universiy of Haripur
 
-Lab: 
-
+Lab: 5
+Image noise
 
 %}
 
-clearvars; close all; clc;
+clearvars; close all; clc;`
