@@ -8,7 +8,7 @@ Semester: Spring 2018
 Department of IT
 Universiy of Haripur
 
-Lab: 
+Lab: 6
 
 
 %}
