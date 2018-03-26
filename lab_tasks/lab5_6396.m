@@ -13,4 +13,4 @@ Image noise
 
 %}
 
-clearvars; close all; clc;`
+clearvars; close all; clc;
