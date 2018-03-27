@@ -49,6 +49,15 @@ for i = blue_start(1):blue_end(1)
     end
 end
 
+purple_start = [300 300];
+purple_end = purple_start + size;
+
+for i = purple_start(1):purple_end(1)
+    for j = purple_start(2):purple_end(2)
+        m(i, j, 2) = 0;
+    end
+end
+
 imshow(m)
 
 
