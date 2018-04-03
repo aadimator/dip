@@ -16,7 +16,7 @@ RGB boxes on white background
 
 clearvars; close all; clc;
 
-m = ones(400, 400, 3);
+m = uint8(ones(400, 400, 3)) * 255;
 
 size = [50 50];
 
@@ -42,8 +42,8 @@ green_end = green_start + size;
 
 for i = green_start(1):green_end(1)
     for j = green_start(2):green_end(2)
-        m(i, j, 1) = 0;
-        m(i, j, 3) = 0;
+        m(i, j, 1) = 200;
+        m(i, j, 3) = 100;
     end
 end
 
