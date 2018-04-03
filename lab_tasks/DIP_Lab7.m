@@ -2,21 +2,21 @@
 %%
 clear all; close all; clc;
 %% Contrast stretching
-% im = rgb2gray(imread('student.jpg'));
-% % imshow(im);
+% im = rgb2gray(imread('../images/kitty.jpg'));
+% imshow(im);
 % im1 = im - 100;
 % subplot(1,2,1);imshow(im);
 % subplot(1,2,2);imshow(im1);
-% 
+
 % im = im - 50;
 % im = imread('cameraman.tif');
-% 
-% im = imread('xray_jpg.jpg');
-% % % % subplot(2,2,1); imshow(im);
-% % % % subplot(2,2,2); imshow(im-30);
-% % % % subplot(2,2,3); imshow(im-50);
-% % % % subplot(2,2,4); imshow(im-70);
-% 
+
+% im = imread('../images/kitty.jpg');
+% subplot(2,2,1); imshow(im);
+% subplot(2,2,2); imshow(im-30);
+% subplot(2,2,3); imshow(im-50);
+% subplot(2,2,4); imshow(im-70);
+
 % img = imadjust(im,stretchlim(im),[]);
 % figure;
 % subplot(1,2,1); imshow(im); title('Original image');
@@ -24,7 +24,7 @@ clear all; close all; clc;
 
 %% Thresholding
 % %%
-% im = rgb2gray(imread('student.jpg'));
+% im = rgb2gray(imread('../images/kitty.jpg'));
 % th = 160;
 % im_th = zeros(size(im));
 % [r,c]=size(im);
@@ -40,9 +40,9 @@ clear all; close all; clc;
 %%
 %% Log Transformation
 %% 
-% % im = imread('student.jpg');
-% % im = imread('cameraman.tif');
-% im1 = imread('flower.jpg');
+% im = imread('student.jpg');
+% im = imread('cameraman.tif');
+% im1 = imread('../images/kitty.jpg');
 % % g=rgb2gray(im);
 % im2 = zeros(size(im1));
 % c=.5;
@@ -75,7 +75,7 @@ clear all; close all; clc;
 
 %% Power-Law Transformation2
 %%
-% im = imread('student.jpg');
+% im = imread('../images/kitty.jpg');
 % 
 % % % RGB to gray
 % I=rgb2gray(im);

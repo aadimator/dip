@@ -15,8 +15,8 @@ Assignment: 2
 clearvars; close all; clc;
 
 %% Read-in images
-im1 = rgb2gray(imread('Baby_Po.jpg'));
-im2 = rgb2gray(imread('kitty.jpg'));
+im1 = rgb2white(imread('../images/Baby_Po.jpg'));
+im2 = rgb2gray(imread('../images/kitty.jpg'));
 im2 = imresize(im2, size(im1));
 
 %% Arithematic Operation 
