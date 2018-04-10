@@ -42,12 +42,12 @@ clear all; close all; clc;
 %% Contrast Adjustment
 %%
 %% Example-1
-im = imread('cameraman.tif');
-im1 = imadjust(im);
-subplot(2,2,1);imshow(im);
-subplot(2,2,2);imshow(im1);
-subplot(2,2,3);imhist(im);
-subplot(2,2,4);imhist(im1);
+% im = imread('cameraman.tif');
+% im1 = imadjust(im);
+% subplot(2,2,1);imshow(im);
+% subplot(2,2,2);imshow(im1);
+% subplot(2,2,3);imhist(im);
+% subplot(2,2,4);imhist(im1);
 %%
 %% Example-2a
 % im = imread('cameraman.tif');
@@ -58,14 +58,14 @@ subplot(2,2,4);imhist(im1);
 % subplot(2,2,3);imhist(im);
 % subplot(2,2,4);imhist(im1);
 %% Example-2b
-% im = imread('cameraman.tif');
-% im = im - 100;
-% im1 = imadjust(im);
-% im2 = imadjust(im1);
-% subplot(2,2,1);imshow(im1);
-% subplot(2,2,2);imshow(im2);
-% subplot(2,2,3);imhist(im1);
-% subplot(2,2,4);imhist(im2);
+im = imread('cameraman.tif');
+im = im - 100;
+im1 = imadjust(im);
+im2 = imadjust(im1);
+subplot(2,2,1);imshow(im1);
+subplot(2,2,2);imshow(im2);
+subplot(2,2,3);imhist(im1);
+subplot(2,2,4);imhist(im2);
 
 %%
 %% Example-3
